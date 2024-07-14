@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #301934, #208c2c89);
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.escrow-form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  /* background-color: #fff; */
+  background: linear-gradient(to left, #301934, #208c2c89);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 20); 
+  transition: background 0.5s ease-in; 
+}
+
+.escrow-form:hover {
+  /* background: linear-gradient(to right, #301934, #208c2c89); */
+  background: inherit;
+}
+
+.escrow-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.escrow-form input,
+.escrow-form button {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.escrow-form button {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.blink-container {
+  width: 40%;
+  text-align: center;
+}
+
+#blinking-video {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
