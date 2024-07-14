@@ -6,7 +6,7 @@ const sellerAddressInput = document.getElementById('seller-address');
 const statusElement = document.getElementById('escrow-status');
 
 // Solana connection (replace with your provider setup)
-const connection = new solanaWeb3.Connection('http://api.devnet.solana.com'); // Devnet connection
+const connection = new solanaWeb3.Connection('https://devnet.helius-rpc.com/?api-key=1ed75f8b-119f-4be1-8235-a74ffcda8046'); // Devnet connection
 
 // Replace with your actual program ID and account (for demo purposes)
 const programId = new solanaWeb3.PublicKey('YOUR_PROGRAM_ID');
